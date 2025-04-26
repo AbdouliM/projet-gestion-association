@@ -1,0 +1,296 @@
+# depslib dependency file v1.0
+1745629252 source:c:\users\mayss\onedrive\desktop\prog\projetc++\donateur.cpp
+	"donateur.h"
+	<iostream>
+	"dons.h"
+	<iomanip>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\projetc++\donateur.h
+	"personne.h"
+	<vector>
+	"dons.h"
+	<string>
+	<iostream>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\projetc++\personne.h
+	<string>
+	<iostream>
+	<vector>
+	"projet.h"
+
+1745616109 c:\users\mayss\onedrive\desktop\prog\projetc++\projet.h
+	<string>
+
+1745616481 c:\users\mayss\onedrive\desktop\prog\projetc++\dons.h
+	<string>
+
+1745616481 source:c:\users\mayss\onedrive\desktop\prog\projetc++\dons.cpp
+	"dons.h"
+	<iostream>
+	<iomanip>
+
+1745631277 source:c:\users\mayss\onedrive\desktop\prog\projetc++\main.cpp
+	"admin.h"
+	"comite.h"
+	"membreactif.h"
+	"coneteneur.h"
+	<fstream>
+	<iostream>
+
+1745628969 source:c:\users\mayss\onedrive\desktop\prog\projetc++\membre.cpp
+	"membre.h"
+	<iostream>
+	<iomanip>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\projetc++\membre.h
+	"personne.h"
+
+1745631239 source:c:\users\mayss\onedrive\desktop\prog\projetc++\membreactif.cpp
+	"membreactif.h"
+	<iostream>
+	<iomanip>
+
+1745630026 c:\users\mayss\onedrive\desktop\prog\projetc++\membreactif.h
+	"membre.h"
+	"donateur.h"
+
+1745625717 source:c:\users\mayss\onedrive\desktop\prog\projetc++\personne.cpp
+	"personne.h"
+	<iostream>
+	<iomanip>
+
+1745621582 source:c:\users\mayss\onedrive\desktop\prog\projetc++\projet.cpp
+	"projet.h"
+	<iostream>
+	<iomanip>
+
+1745623611 source:c:\users\mayss\onedrive\desktop\prog\projetc++\admin.cpp
+	"admin.h"
+	<iostream>
+	<iomanip>
+
+1745616858 c:\users\mayss\onedrive\desktop\prog\projetc++\admin.h
+	"personne.h"
+	<string>
+	<vector>
+
+1745628012 source:c:\users\mayss\onedrive\desktop\prog\projetc++\comite.cpp
+	"comite.h"
+	<iostream>
+	<algorithm>
+	<iomanip>
+
+1745625777 c:\users\mayss\onedrive\desktop\prog\projetc++\comite.h
+	<list>
+	<string>
+	"admin.h"
+
+1745625219 source:c:\users\mayss\onedrive\desktop\prog\projetc++\conteneur.cpp
+	"coneteneur.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<typeinfo>
+	<stdexcept>
+
+1745625219 c:\users\mayss\onedrive\desktop\prog\projetc++\coneteneur.h
+	"personne.h"
+	"donateur.h"
+	"membre.h"
+	"admin.h"
+	<vector>
+
+1745623611 source:c:\users\mayss\onedrive\desktop\prog\projc++\admin.cpp
+	"admin.h"
+	<iostream>
+	<iomanip>
+
+1745616858 c:\users\mayss\onedrive\desktop\prog\projc++\admin.h
+	"personne.h"
+	<string>
+	<vector>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\projc++\personne.h
+	<string>
+	<iostream>
+	<vector>
+	"projet.h"
+
+1745616109 c:\users\mayss\onedrive\desktop\prog\projc++\projet.h
+	<string>
+
+1745628012 source:c:\users\mayss\onedrive\desktop\prog\projc++\comite.cpp
+	"comite.h"
+	<iostream>
+	<algorithm>
+	<iomanip>
+
+1745625777 c:\users\mayss\onedrive\desktop\prog\projc++\comite.h
+	<list>
+	<string>
+	"admin.h"
+
+1745625219 source:c:\users\mayss\onedrive\desktop\prog\projc++\conteneur.cpp
+	"coneteneur.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<typeinfo>
+	<stdexcept>
+
+1745625219 c:\users\mayss\onedrive\desktop\prog\projc++\coneteneur.h
+	"personne.h"
+	"donateur.h"
+	"membre.h"
+	"admin.h"
+	<vector>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\projc++\donateur.h
+	"personne.h"
+	<vector>
+	"dons.h"
+	<string>
+	<iostream>
+
+1745616481 c:\users\mayss\onedrive\desktop\prog\projc++\dons.h
+	<string>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\projc++\membre.h
+	"personne.h"
+
+1745629252 source:c:\users\mayss\onedrive\desktop\prog\projc++\donateur.cpp
+	"donateur.h"
+	<iostream>
+	"dons.h"
+	<iomanip>
+
+1745616481 source:c:\users\mayss\onedrive\desktop\prog\projc++\dons.cpp
+	"dons.h"
+	<iostream>
+	<iomanip>
+
+1745631335 source:c:\users\mayss\onedrive\desktop\prog\projc++\main.cpp
+	"admin.h"
+	"comite.h"
+	"membreactif.h"
+	"coneteneur.h"
+	<fstream>
+	<iostream>
+
+1745630026 c:\users\mayss\onedrive\desktop\prog\projc++\membreactif.h
+	"membre.h"
+	"donateur.h"
+
+1745628969 source:c:\users\mayss\onedrive\desktop\prog\projc++\membre.cpp
+	"membre.h"
+	<iostream>
+	<iomanip>
+
+1745631239 source:c:\users\mayss\onedrive\desktop\prog\projc++\membreactif.cpp
+	"membreactif.h"
+	<iostream>
+	<iomanip>
+
+1745625717 source:c:\users\mayss\onedrive\desktop\prog\projc++\personne.cpp
+	"personne.h"
+	<iostream>
+	<iomanip>
+
+1745621582 source:c:\users\mayss\onedrive\desktop\prog\projc++\projet.cpp
+	"projet.h"
+	<iostream>
+	<iomanip>
+
+1745623611 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\admin.cpp
+	"admin.h"
+	<iostream>
+	<iomanip>
+
+1745616858 c:\users\mayss\onedrive\desktop\prog\gestionassociation\admin.h
+	"personne.h"
+	<string>
+	<vector>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\gestionassociation\personne.h
+	<string>
+	<iostream>
+	<vector>
+	"projet.h"
+
+1745616109 c:\users\mayss\onedrive\desktop\prog\gestionassociation\projet.h
+	<string>
+
+1745628012 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\comite.cpp
+	"comite.h"
+	<iostream>
+	<algorithm>
+	<iomanip>
+
+1745625777 c:\users\mayss\onedrive\desktop\prog\gestionassociation\comite.h
+	<list>
+	<string>
+	"admin.h"
+
+1745625219 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\conteneur.cpp
+	"coneteneur.h"
+	<vector>
+	<iostream>
+	<fstream>
+	<typeinfo>
+	<stdexcept>
+
+1745625219 c:\users\mayss\onedrive\desktop\prog\gestionassociation\coneteneur.h
+	"personne.h"
+	"donateur.h"
+	"membre.h"
+	"admin.h"
+	<vector>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\gestionassociation\donateur.h
+	"personne.h"
+	<vector>
+	"dons.h"
+	<string>
+	<iostream>
+
+1745616481 c:\users\mayss\onedrive\desktop\prog\gestionassociation\dons.h
+	<string>
+
+1745625717 c:\users\mayss\onedrive\desktop\prog\gestionassociation\membre.h
+	"personne.h"
+
+1745629252 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\donateur.cpp
+	"donateur.h"
+	<iostream>
+	"dons.h"
+	<iomanip>
+
+1745616481 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\dons.cpp
+	"dons.h"
+	<iostream>
+	<iomanip>
+
+1745628969 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\membre.cpp
+	"membre.h"
+	<iostream>
+	<iomanip>
+
+1745631239 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\membreactif.cpp
+	"membreactif.h"
+	<iostream>
+	<iomanip>
+
+1745630026 c:\users\mayss\onedrive\desktop\prog\gestionassociation\membreactif.h
+	"membre.h"
+	"donateur.h"
+
+1745625717 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\personne.cpp
+	"personne.h"
+	<iostream>
+	<iomanip>
+
+1745621582 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\projet.cpp
+	"projet.h"
+	<iostream>
+	<iomanip>
+
