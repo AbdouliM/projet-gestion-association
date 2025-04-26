@@ -1,1 +1,1 @@
-Application pour la gestion d'une association catitative
+#Application pour la gestion d'une association caritative
