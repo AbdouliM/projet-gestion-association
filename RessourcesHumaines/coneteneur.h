@@ -9,7 +9,7 @@ class Conteneur{
       public:
   vector<Personne*> tab;
 
-
+  Conteneur& operator=(const Conteneur&);
     Conteneur() = default;
 
     Conteneur(const Conteneur&);

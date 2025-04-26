@@ -15,6 +15,7 @@ public:
     friend ostream& operator<< (ostream&, Personne*);
     friend istream& operator>> (istream&, Personne*);
 
+
     bool operator==(const Personne& p) const;
 
     friend istream& operator>>(istream& in, Personne& p);
@@ -33,11 +34,28 @@ public:
 
     Personne(const Personne& p) {
         nom = p.nom; prenom = p.prenom; dateNaissance = p.dateNaissance;
+
         for (auto projet : p.projets) {
           projets.push_back(new Projet(*projet));
           }
      }
+    Personne& operator=(const Personne& autre) {
+    if (this != &autre) {
+        nom = autre.nom;
+        prenom = autre.prenom;
+        dateNaissance = autre.dateNaissance;
 
+        for (auto projet : projets) {
+            delete projet;
+        }
+        projets.clear();
+
+        for (auto projet : autre.projets) {
+            projets.push_back(new Projet(*projet));
+        }
+    }
+    return *this;
+}
     virtual ~Personne();
     virtual void afficher() const ;
     void ajouterProjet(const Projet& );

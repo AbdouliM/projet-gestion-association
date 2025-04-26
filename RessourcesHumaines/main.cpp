@@ -21,6 +21,19 @@ void afficherMenu() {
 
 int main() {
 
+     Membre membre1;
+     cin>>membre1;
+
+    cout << "Membre 1 avant affectation: " << endl;
+    cout<<membre1;
+
+    Membre membre2;
+    membre2 = membre1;
+
+    cout << "Membre 2 après affectation: " << endl;
+    cout<<membre2;
+
+/*
 Conteneur conteneur;
 const string nomFichier = "personnes.txt";
 int choix;
@@ -69,7 +82,7 @@ int choix;
         }
 
     } while(choix != 6);
-
+*/
 ////////////////////////////////////////////////////////////////////////////////
 /*
 ComiteAdministration comite;

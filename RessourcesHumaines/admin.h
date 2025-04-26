@@ -17,11 +17,26 @@ public:
 
      Administrateur() : Personne(), responsabilites(""), dateNomination("") {}
 
-    Administrateur(const string& n, const string& p, const string& d, const string& r, const string& dateN)
-        : Personne(n, p, d), responsabilites(r), dateNomination(dateN) {}
 
-    Administrateur(const Administrateur& a)
-        : Personne(a), responsabilites(a.responsabilites), dateNomination(a.dateNomination) {}
+    Administrateur(const string& n, const string& p, const string& d, const string& r, const string& dateN): Personne(n, p, d){
+    responsabilites = r;
+    dateNomination = dateN;
+    }
+
+
+    Administrateur(const Administrateur& a): Personne(a) {
+      responsabilites = a.responsabilites;
+      dateNomination = a.dateNomination;
+    }
+
+    Administrateur& operator=(const Administrateur& autre) {
+        if (this != &autre) {
+            Personne::operator=(autre);
+            responsabilites = autre.responsabilites;
+            dateNomination = autre.dateNomination;
+        }
+        return *this;
+    }
 
     friend ostream& operator<<(ostream& os, Administrateur& admin);
     friend istream& operator>>(istream& is, Administrateur& admin);

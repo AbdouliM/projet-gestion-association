@@ -9,6 +9,7 @@ protected:
 
 public:
 
+
     friend ostream& operator<< (ostream&, Projet*);
     friend istream& operator>> (istream&, Projet*);
 
