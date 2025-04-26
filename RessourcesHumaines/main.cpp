@@ -14,13 +14,14 @@ void afficherMenu() {
     cout << "3. Rechercher et modifier une personne" << endl;
     cout << "4. Sauvegarder dans un fichier" << endl;
     cout << "5. Charger depuis un fichier" << endl;
-    cout << "6. Quitter" << endl;
+    cout << "6. Rechercher et supprimer une personne" << endl;
+    cout << "7. Quitter" << endl;
     cout << "Choix : ";
 }
 
 
 int main() {
-
+/*
      Membre membre1;
      cin>>membre1;
 
@@ -33,7 +34,7 @@ int main() {
     cout << "Membre 2 après affectation: " << endl;
     cout<<membre2;
 
-/*
+*/
 Conteneur conteneur;
 const string nomFichier = "personnes.txt";
 int choix;
@@ -70,10 +71,16 @@ int choix;
                     cout << "Donnees chargees depuis " << nomFichier << endl;
                     break;
 
-                case 6:
-                    cout << "Au revoir!" << endl;
+                case 6:{
+                    string nom;
+                    cout << "Entrez le nom a rechercher: ";
+                    cin>>nom;
+                    conteneur.supprimerParNom(nom, nomFichier);
                     break;
-
+                }
+                case 7:
+                    cout <<endl<< "Au revoir!" << endl;
+                    break;
                 default:
                     cout << "Choix invalide!" << endl;
             }
@@ -81,8 +88,8 @@ int choix;
             cerr << "Erreur: " << e.what() << endl;
         }
 
-    } while(choix != 6);
-*/
+    } while(choix != 7);
+
 ////////////////////////////////////////////////////////////////////////////////
 /*
 ComiteAdministration comite;

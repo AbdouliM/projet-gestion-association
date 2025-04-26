@@ -9,7 +9,9 @@ class Conteneur{
       public:
   vector<Personne*> tab;
 
-  Conteneur& operator=(const Conteneur&);
+
+   void supprimerParNom(const string& , const string&) ;
+
     Conteneur() = default;
 
     Conteneur(const Conteneur&);

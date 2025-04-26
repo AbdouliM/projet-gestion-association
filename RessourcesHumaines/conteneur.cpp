@@ -7,6 +7,26 @@
 
 using namespace std;
 
+void Conteneur::supprimerParNom(const string& nom, const string& nomFichier) {
+    copierFichierVersVector(nomFichier);
+    bool found = false;
+
+    for (auto it = tab.begin(); it != tab.end(); ++it) {
+        if ((*it)->getNom() == nom) {
+            found = true;
+            cout << "\n=== PERSONNE TROUVEE ET SUPPRIMEE ===" << endl;
+            cout << **it << endl;
+            delete *it;
+            tab.erase(it);
+            CopierVectorVersFichier(nomFichier);
+            cout << "\nSuppression effectuee avec succes et sauvegardee!" << endl;
+            break;
+        }
+    }
+    if (!found) {
+        cout << "Aucune personne trouvee avec le nom: " << nom << endl;
+    }
+}
 
 Conteneur::~Conteneur() {
     for (Personne* p : tab) {
