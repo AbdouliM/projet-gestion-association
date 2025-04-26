@@ -19,7 +19,6 @@ void afficherMenu() {
 }
 
 
-
 int main() {
 
 Conteneur conteneur;

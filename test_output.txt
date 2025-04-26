@@ -1,8 +1,0 @@
-Nom : MMM
-Prénom : PPP
-Date de naissance : OOO
-Projets : 
-  Projet 1 : Nom : UUU
-Description : OOIIII
-
-
