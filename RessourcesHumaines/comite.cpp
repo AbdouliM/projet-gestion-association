@@ -52,13 +52,7 @@ istream& operator>>(istream& is, ComiteAdministration& comite) {
     comite.nombreMembres = comite.administrateurs.size();
     return is;
 }
-void ComiteAdministration::afficher() {
-    cout << "Comité Administration : " << "nombre des membres: " << nombreMembres << endl;
-    for_each(administrateurs.begin(), administrateurs.end(), [](Administrateur* admin) {
-    if (admin) admin->afficher();
-});
 
-}
 
 void ComiteAdministration::operator+=(Administrateur* admin) {
     administrateurs.push_back(admin);

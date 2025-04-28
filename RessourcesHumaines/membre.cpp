@@ -21,9 +21,6 @@ istream& operator>> (istream& in, Membre* m)
     return in;
 }
 
-void Membre::afficher()  {
-    cout << "membre :"<<" role:"<<"dateAdhesion"<<dateAdhesion<< "nbmembres"<<nbmembres<<endl;
-}
 
 istream& operator>>(istream& in, Membre& m) {
     in >> static_cast<Personne&>(m);

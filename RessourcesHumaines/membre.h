@@ -17,7 +17,10 @@ public:
     Membre(const string& n, const string& p, const string& d, const string& r, const string& da)
        : Personne(n, p, d){role=r;dateAdhesion=da;nbmembres++;}
 
-    void afficher();
+    void afficher() const override {
+    cout << "membre :"<<" role:"<<"dateAdhesion"<<dateAdhesion<< "nbmembres"<<nbmembres<<endl;
+     }
+
     void mettreAJourRole(const string& );
 
     string getRole() { return role; }

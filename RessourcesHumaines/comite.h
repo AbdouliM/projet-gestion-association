@@ -2,6 +2,9 @@
 #include <list>
 #include <string>
 #include "admin.h"
+#include <iostream>
+#include <algorithm>
+
 using namespace std;
 
 class ComiteAdministration {
@@ -47,7 +50,12 @@ public:
     void ajouterAdministrateur(Administrateur*);
     void supprimerAdministrateur(size_t);
 
-    void afficher() ;
+    void afficher() {
+    cout << "Comité Administration : " << "nombre des membres: " << nombreMembres << endl;
+      for_each(administrateurs.begin(), administrateurs.end(), [](Administrateur* admin)
+             {if (admin) admin->afficher();} );
+    }
+
     ~ComiteAdministration();
 
 };

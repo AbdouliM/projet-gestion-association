@@ -1,1 +1,2 @@
-1         mm        ss          ss          1        sss sssssssssssssss     0
+4         aa        aaa          aaa          0
+4         ll         ll          ll          1         kk     kkkkkk

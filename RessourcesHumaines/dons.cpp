@@ -18,10 +18,6 @@ istream& operator>> (istream& in, Dons* d)
     return in;
 }
 
-void Dons::afficher()  {
-    cout << "Don :"<<endl<<"Montant:"<<montant<<endl<<"date"<<date<<endl<<"Type"<<type<<endl;
-}
-
 istream& operator>>(istream& in, Dons& d) {
     cout << "Montant: ";
     in >> d.montant;

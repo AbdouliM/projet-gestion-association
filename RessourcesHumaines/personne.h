@@ -56,8 +56,8 @@ public:
     }
     return *this;
 }
-    virtual ~Personne();
-    virtual void afficher() const ;
+    virtual ~Personne() ;
+    virtual void afficher() const =0;
     void ajouterProjet(const Projet& );
 
     string getNom(){ return nom; }

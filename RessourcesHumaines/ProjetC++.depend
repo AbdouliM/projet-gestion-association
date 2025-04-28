@@ -294,17 +294,17 @@
 	<iostream>
 	<iomanip>
 
-1745623611 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\admin.cpp
+1745871275 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\admin.cpp
 	"admin.h"
 	<iostream>
 	<iomanip>
 
-1745678793 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\admin.h
+1745871956 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\admin.h
 	"personne.h"
 	<string>
 	<vector>
 
-1745679786 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\personne.h
+1745871070 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\personne.h
 	<string>
 	<iostream>
 	<vector>
@@ -313,18 +313,20 @@
 1745679639 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\projet.h
 	<string>
 
-1745628012 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\comite.cpp
+1745871275 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\comite.cpp
 	"comite.h"
 	<iostream>
 	<algorithm>
 	<iomanip>
 
-1745625777 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\comite.h
+1745871915 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\comite.h
 	<list>
 	<string>
 	"admin.h"
+	<iostream>
+	<algorithm>
 
-1745686604 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\conteneur.cpp
+1745870796 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\conteneur.cpp
 	"coneteneur.h"
 	<vector>
 	<iostream>
@@ -339,31 +341,32 @@
 	"admin.h"
 	<vector>
 
-1745625717 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\donateur.h
+1745871275 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\donateur.h
 	"personne.h"
 	<vector>
 	"dons.h"
 	<string>
 	<iostream>
 
-1745616481 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\dons.h
+1745871558 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\dons.h
 	<string>
+	<iostream>
 
-1745625717 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membre.h
+1745871070 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membre.h
 	"personne.h"
 
-1745629252 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\donateur.cpp
+1745871070 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\donateur.cpp
 	"donateur.h"
 	<iostream>
 	"dons.h"
 	<iomanip>
 
-1745616481 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\dons.cpp
+1745871070 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\dons.cpp
 	"dons.h"
 	<iostream>
 	<iomanip>
 
-1745687654 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\main.cpp
+1745862932 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\main.cpp
 	"admin.h"
 	"comite.h"
 	"membreactif.h"
@@ -371,21 +374,22 @@
 	<fstream>
 	<iostream>
 
-1745630026 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membreactif.h
+1745871842 c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membreactif.h
 	"membre.h"
 	"donateur.h"
+	<iostream>
 
-1745628969 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membre.cpp
+1745871070 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membre.cpp
 	"membre.h"
 	<iostream>
 	<iomanip>
 
-1745631239 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membreactif.cpp
+1745871070 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\membreactif.cpp
 	"membreactif.h"
 	<iostream>
 	<iomanip>
 
-1745625717 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\personne.cpp
+1745871507 source:c:\users\mayss\onedrive\desktop\prog\gestionassociation\ressourceshumaines\personne.cpp
 	"personne.h"
 	<iostream>
 	<iomanip>

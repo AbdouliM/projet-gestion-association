@@ -1,6 +1,8 @@
 # pragma once
 #include"membre.h"
 #include"donateur.h"
+#include<iostream>
+using namespace std;
 
 class MembreActif : virtual public Membre , virtual public Donateur {
 private:
@@ -19,7 +21,11 @@ public:
 
     MembreActif(const string& n, const string& p, const string& d, const string& r, const string& da,const vector<Projet>& tab, int nhb, const string& s, double nd, const vector<Dons>& ds)
         : Membre(n, p, d, r, da), Donateur(n, p, d, nd) {nombreHeuresBenevolat=nhb; specialite=s;}
-    void afficher() ;
+
+    void afficher() const override {
+    cout << "nombre Heures Benevolat"<<nombreHeuresBenevolat<<"specialite"<<specialite<<endl;
+    }
+
 
     int getNombreHeuresBenevolat() { return nombreHeuresBenevolat; }
     void setNombreHeuresBenevolat(int nhb) { nombreHeuresBenevolat = nhb; }

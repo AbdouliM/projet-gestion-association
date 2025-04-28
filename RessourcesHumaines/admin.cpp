@@ -55,8 +55,3 @@ void Administrateur::setDateNomination(const string& newDateNomination) {
 
 Administrateur::~Administrateur() {}
 
-void Administrateur::afficher() {
-    cout << "Administrateur:" << endl;
-    Personne::afficher();
-    cout << "Responsabilités: " << responsabilites << " | Date de nomination: " << dateNomination << endl;
-}

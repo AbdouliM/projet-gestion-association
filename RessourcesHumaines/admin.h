@@ -48,5 +48,9 @@ public:
     void setDateNomination(const string& newDateNomination);
 
     ~Administrateur();
-    void afficher() ;
+
+    void afficher() const override {
+    cout<<*this;
+}
+
 };

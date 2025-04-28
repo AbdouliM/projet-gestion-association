@@ -45,10 +45,10 @@ Conteneur::Conteneur(const Conteneur& other) {
         }
         else if (typeid(*p) == typeid(Administrateur)) {
             tab.push_back(new Administrateur(*dynamic_cast<const Administrateur*>(p)));
-        }
+        }/*
         else {
             tab.push_back(new Personne(*p));
-        }
+        }*/
     }
 }
 void Conteneur::ouvrirFichier(const string& nomFichier) {
@@ -99,13 +99,13 @@ ostream& operator<<(ostream& out, Conteneur& w) {
         }
         else if (typeid(*w.tab[i]) == typeid(Administrateur)) {
             out << "\n **** Administrateur ****\n " << *dynamic_cast<Administrateur*>(w.tab[i]) << endl;
-        }
+        }/*
         else if (typeid(*w.tab[i]) == typeid(Personne)) {
             out << "\n **** Personne **** \n " << *w.tab[i] << endl;
-            cout << endl<<"--------------------------------------------------" << endl;
-
-        }
+        }*/
     }
+    cout << endl<<"--------------------------------------------------" << endl;
+
     return out;
 
 }
@@ -120,10 +120,10 @@ ostream& operator<<(ostream& out, Conteneur* c) {
         }
         else if (typeid(*c->tab[i]) == typeid(Administrateur)) {
             out << "3 " << static_cast<Administrateur*>(c->tab[i]) << endl;
-        }
+        }/*
         else if (typeid(*c->tab[i]) == typeid(Personne)) {
             out << "4 " << c->tab[i] << endl;
-        }
+        }*/
     }
     return out;
 }
@@ -149,12 +149,12 @@ istream& operator>>(istream& in, Conteneur& w) {
             Administrateur* q = new Administrateur();
             in >> *q;
             w.tab.push_back(q);
-        }
+        }/*
         else if (choix == 4) {
             Personne* q = new Personne();
             in >> *q;
             w.tab.push_back(q);
-        }
+        }*/
 
         cout << "\nAjouter une autre personne ? (o/n)" << endl;
         in >> rep;
@@ -185,12 +185,12 @@ istream& operator>>(istream& in, Conteneur* w) {
             Administrateur* q = new Administrateur();
             in >> q;
             w->tab.push_back(q);
-        }
+        }/*
         else if (choix == 4) {
             Personne* q = new Personne();
             in >> q;
             w->tab.push_back(q);
-        }
+        }*/
     }
     return in;
 }
@@ -210,7 +210,6 @@ void Conteneur::modifierdansFichier(const string& nom, const string& nomFichier)
             cout << "\nVoulez-vous modifier cette personne? (o/n) ";
             char choix;
             cin >> choix;
-            cin.ignore();
 
             if (tolower(choix) == 'o') {
                 cout << "\n=== NOUVELLES VALEURS ===" << endl;
@@ -231,12 +230,12 @@ void Conteneur::modifierdansFichier(const string& nom, const string& nomFichier)
                     nouvellePersonne = new Administrateur();
                     cout << "Entrez les nouvelles informations de l'administrateur:" << endl;
                     cin >> *dynamic_cast<Administrateur*>(nouvellePersonne);
-                }
+                }/*
                 else {
                     nouvellePersonne = new Personne();
                     cout << "Entrez les nouvelles informations de la personne:" << endl;
                     cin >> *nouvellePersonne;
-                }
+                }*/
 
                 delete tab[i];
                 tab[i] = nouvellePersonne;

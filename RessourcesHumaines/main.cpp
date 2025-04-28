@@ -19,7 +19,6 @@ void afficherMenu() {
     cout << "Choix : ";
 }
 
-
 int main() {
 /*
      Membre membre1;

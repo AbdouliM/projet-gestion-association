@@ -1,6 +1,6 @@
-
 # pragma once
 #include<string>
+#include<iostream>
 using namespace std;
 class Dons{
 double montant;
@@ -16,7 +16,11 @@ friend istream& operator>> (istream&, Dons*);
     Dons(double m, const string& d, const string& t){ montant=m; date=d; type=t; }
 
     ~Dons(){}
-    void afficher();
+
+void afficher() {
+    cout << "Don :"<<endl<<"Montant:"<<montant<<endl<<"date"<<date<<endl<<"Type"<<type<<endl;
+}
+
 
 
     double getMontant() { return montant; }

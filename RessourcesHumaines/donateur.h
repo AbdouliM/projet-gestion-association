@@ -35,7 +35,12 @@ public:
      for (auto don : dona.dons)  dons.push_back(new Dons(*don));
      }
 
-    void afficher() ;
+    void afficher() const override {
+    cout << "Nombre de dons : " << nombreDons << endl;
+    cout << "Liste des dons : " << endl;
+    for (auto& don : dons) don->afficher();
+
+    }
     void ajouterDon(const Dons&);
     double calculerTotalDons();
     double getNombreDons() { return nombreDons; }

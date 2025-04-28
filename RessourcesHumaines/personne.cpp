@@ -6,7 +6,7 @@ using namespace std;
 
 ostream& operator<< (ostream& out, Personne* p)
 {
-    out <<setw(10) << p->nom << setw(10) <<  p->prenom << setw(10) << " " << p->dateNaissance;
+    out <<setw(10) << p->nom << " " << setw(10) <<  p->prenom << setw(10) << " " << p->dateNaissance;
     out << " " << setw(10) << p->projets.size();
     for (auto projet : p->projets) {
         out << " " <<setw(10)  << projet;
@@ -33,7 +33,7 @@ istream& operator>> (istream& in, Personne* p)
 bool Personne::operator==(const Personne& p) const {
     return (nom == p.nom && prenom == p.prenom && dateNaissance == p.dateNaissance);
 }
-void Personne::afficher() const {
+/* void Personne::afficher() const {
     cout << "Nom: " << nom << endl;
     cout << "Prenom: " << prenom << endl;
     cout << "Date de Naissance: " << dateNaissance << endl;
@@ -47,7 +47,7 @@ void Personne::afficher() const {
         cout << "--------------------------------------------------" << endl;
 
     }
-}
+}*/
 
 void Personne::ajouterProjet(const Projet& p) {
     projets.push_back(new Projet(p));

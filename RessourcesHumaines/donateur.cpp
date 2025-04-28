@@ -58,13 +58,7 @@ ostream& operator<<(ostream& out, const Donateur& d) {
     return out;
 }
 
-void Donateur::afficher() {
-    Personne::afficher();
-    cout << "Nombre de dons : " << nombreDons << endl;
-    cout << "Liste des dons : " << endl;
-    for (auto& don : dons) don->afficher();
 
-}
 
 double Donateur::calculerTotalDons() {
     double total = 0;

@@ -24,10 +24,6 @@ istream& operator>> (istream& in, MembreActif* m) {
     return in;
 }
 
-void MembreActif::afficher()  {
-    cout << "nombre Heures Benevolat"<<nombreHeuresBenevolat<<"specialite"<<specialite<<endl;
-}
-
 istream& operator>>(istream& in, MembreActif& m) {
     //in >> static_cast<Membre&>(m);
     in >> static_cast<Donateur&>(m);
